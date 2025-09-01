@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <div class="grid">
+    <div>
+      <app-add-patient (added)="afterAddPatient()"></app-add-patient>
+      <app-patients-list
+        [data]="patients"
+        [selectedId]="selected?.id"
+        (select)="onSelect($event)">
+      </app-patients-list>
+    </div>
+
+    <div>
+      <ng-container *ngIf="selected; else noSel">
+        <h3>Readings for {{selected?.name}} (ID {{selected?.id}})</h3>
+        <app-add-reading [patientId]="selected!.id!" (added)="afterAddReading()"></app-add-reading>
+        <app-readings-list [data]="readings"></app-readings-list>
+      </ng-container>
+      <ng-template #noSel>
+        <p>Select a patient to view/add readings.</p>
+      </ng-template>
+    </div>
+  </div>
+</div>
