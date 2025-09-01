@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coredio.ReadingsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55bfbf3f27003adf9dec90ef7ab40e76d7dbd35f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coredio.ReadingsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coredio.ReadingsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

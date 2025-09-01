@@ -1,0 +1,89 @@
+### .NET / Visual Studio ###
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+*.swp
+*.sln.ide/
+*.dbmdl
+*.bak
+*.Backup*
+*.tmp
+*.temp
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework
+Migrations/
+
+# Publish outputs
+*.PublishSettings
+*.pubxml
+*.publishproj
+*.pubxml.user
+PublishProfiles/
+AppPackages/
+BundleArtifacts/
+_Project/Builds/
+
+### Rider / JetBrains ###
+.idea/
+*.iml
+out/
+
+### Docker ###
+*.pid
+*.seed
+*.pid.lock
+**/docker-compose.override.yml
+**/docker-compose.override.*.yml
+**/docker-compose.local.yml
+
+### React / Node (frontend) ###
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+### Logs ###
+*.log
+logs/
+*.tlog
+
+### OS ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+### Misc ###
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo

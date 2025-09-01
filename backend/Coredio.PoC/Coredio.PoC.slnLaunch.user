@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Run Multiples",
+    "Projects": [
+      {
+        "Path": "Coredio.PatientsApi\\Coredio.PatientsApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Coredio.ReadingsApi\\Coredio.ReadingsApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
