@@ -1,0 +1,6 @@
+@Coredio.ReadingsApi_HostAddress = http://localhost:5199
+
+GET {{Coredio.ReadingsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
